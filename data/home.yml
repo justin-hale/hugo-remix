@@ -1,16 +1,14 @@
 en:
-  title: Remix, a <span>theme for Hugo</span> fully editable with <span>Netlify
-    CMS</span>
+  title: <span>Barnes Bend</span> is our community in Nashville.</span>
   slogan: Nulla magna eiusmod ea eu irure exercitation non incididunt.
   shortDescription: |
-    
-    → Get your own copy of this website in minutes.
-    → Edit everything with no single line of code.
-    → It's free and open-source!
+    • Find Homeowner's Documents
+    • Join our social media communities
+    • Ask questions to the property manager
   image: /media/wave.jpg
-  copyright: "  © 2017-2022 - OhBonsaï &"
-  register: Roneo.org
-  registerUrl: https://roneo.org/en
+  copyright: "  © 2015-2023 - Barnes Bends HOA"
+  register: barnesbend.com
+  registerUrl: https://barnesbend.com
 fr:
   image: /media/wave.jpg
   title: Remix, un <span>theme pour Hugo</span> branché sur <span>Netlify CMS</span>
