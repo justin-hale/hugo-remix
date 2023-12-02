@@ -1,12 +1,12 @@
-.nc-root [class*="SidebarContainer-card"] {
+#nc-root [class*="SidebarContainer-card"] {
     display: block;
     position: relative;
     width: 100%;
 }
-.nc-root [class*="CollectionMain"] {
+#nc-root [class*="CollectionMain"] {
     display: block;
     padding-left: 0;
 }
-.nc-root [class*="AppMainContainer"] {
+#nc-root [class*="AppMainContainer"] {
     min-width: auto;
 }
