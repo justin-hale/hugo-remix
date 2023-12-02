@@ -83,10 +83,11 @@
 
     .sec1 {
       position: relative;
-      height: 50vh;
+      height: auto;
       overflow: auto;
       .left-header {
         width: 100%;
+        display: none;
         .h-shape {
           clip-path: polygon(0 0, 10% 0, 60% 100%, 0% 100%);
         }
@@ -96,7 +97,7 @@
       }
 
       .right-header {
-        position: absolute;
+        position: relative;
         z-index: 1;
         top: 0;
         left: 0;
@@ -105,11 +106,13 @@
         text-align: center;
         box-sizing: border-box;
         padding: 0 10vw;
+        padding-top: 4rem;
         background-color:  var(--color-primary);
 
         .name {
           font-size: 2rem;
           margin-top: 0;
+          padding-right: 0;
         }
 
         p {

@@ -1,6 +1,7 @@
 // 主样式
 @import "./common.scss";
 @import "./media.scss";
+@import "./calendar.scss";
 
 // header
 .header-bar {
@@ -34,6 +35,9 @@
         color: var(--color-white);
         background-color: var(--color-secondary);
       }
+    }
+    .logo i {
+      color: var(--color-primary);
     }
   }
 
@@ -221,7 +225,7 @@
 // home
 .sec1 {
   display: flex;
-  height: 70vh;
+  height: 55vh;
   overflow: auto;
 
 
@@ -264,13 +268,14 @@
     flex-direction: column;
     justify-content: center;
     padding-top: 0rem;
-    padding-right: 15rem;
+    padding-right: 0rem;
     margin-bottom: 0rem;
 
 
     .name {
       font-size: clamp(1.8rem, 3vw, 4.1rem);
       padding-top: 0;
+      padding-right: 10rem;
       span {
         color: var(--color-secondary);
       }
@@ -582,6 +587,7 @@
   .contact-content-con {
     display: flex;
     width: 80%;
+    max-width: 30rem;
     margin: 2rem auto 0;
     .left-contact {
       flex: 2;

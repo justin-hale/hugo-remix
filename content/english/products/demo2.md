@@ -3,7 +3,7 @@ nType: product
 title: Iron oxide pigment
 theme:
   - c3
-image: /static/media/category4.jpg
+image: /static/media/symetry.jpg
 summary: "111"
 ---
 

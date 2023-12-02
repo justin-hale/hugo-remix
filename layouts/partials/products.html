@@ -1,17 +1,7 @@
-<!-- {{ $data := index site.Data site.Language.Lang}} -->
 {{ $data := index site.Data.products site.Language.Lang }}
 
-{{ $theme := index $data "theme"}}
-{{ $cMapping := dict "" ""}}
-{{ range $theme }}
-{{ $cMapping = merge $cMapping (dict .cSlug .)}}
-{{ end}}
 
-{{ $existtheme :=  site.Taxonomies.theme }}
-
-
-<section class="section sec3 content-sec" id="product">
-
+<section class="section sec5 content-sec" id="products">
     <div class="main-title">
         <h2> {{ $data.title | safeHTML }}
             <span class="bg-text" aria-hidden="true"> {{ $data.backgroundTitle }}</span>
@@ -24,27 +14,24 @@
     </p>
 
 
-    <div class="categories">
 
-        {{range $curCategorySlug, $curCategoryVar := $existtheme}}
-        {{ $curCategoryCfg := index $cMapping $curCategorySlug}}
-        {{ $firstPage := index $curCategoryVar 0}}
+    <div class="news">
 
-        <div class="category">
-            <div class="image"><img src="{{$curCategoryCfg.coverImage}}" alt="">
-                <h3>{{$curCategoryCfg.name}}</h3>
-            </div>
-            <div class="hover-items">
-                <p>{{$curCategoryCfg.description}}</p>
-                <div class="show-more" onclick="handleHeaderSubMenuClick(event, '{{  $firstPage.RelPermalink  }}')"> 
-                    Learn more
-                </div>
+
+
+        {{ range first 6 (where site.RegularPages "Type" "==" "products")}}
+
+        <div class="new" onclick="location.href = '{{ .RelPermalink }}';">
+
+            <img src="/media/{{ path.Base .Params.image }}" alt="">
+            <div class="news-text">
+                <h4>{{ .Title }}</h4>
+                <!-- <h5>{{ .Date }}</h5> -->
+                <p>{{ .Summary }}</p>
             </div>
         </div>
+
         {{ end }}
 
-
     </div>
-
-
 </section>
