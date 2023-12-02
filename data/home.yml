@@ -7,6 +7,10 @@ en:
     • Ask questions to the property manager
   image: /media/00-stairs.jpg
   copyright: "  © 2015-2023 - Barnes Bends HOA"
+  cta1: Join Nextdoor
+  cta1Link: http://www.google.com
+  cta2: Documents
+  cta2Link: http://www.google.com
   register: barnesbend.com
   registerUrl: https://barnesbend.com
 fr:
@@ -15,5 +19,9 @@ fr:
   slogan: Lorem magna eiusmod ea eu irure exercitation non incididunt.
   shortDescription: « Quis do pariatur quis nostrud elit in»
   copyright: "  © 2017-2022 - OhBonsaï &"
+  cta1: Join Nextdoor
+  cta1Link: http://www.google.com
+  cta2: Documents
+  cta2Link: http://www.google.com
   register: Roneo.org
   registerUrl: https://roneo.org/en
