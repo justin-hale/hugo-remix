@@ -52,7 +52,7 @@ collections:
               name: "cta1Icon",
               widget: "string",
               i18n: true,
-              description: "You can find a list of these at https://fontawesome.com/icons",
+              hint: "You can find a list of these at https://fontawesome.com/icons",
             },
             {
               label: "CTA 1 Icon Alignment",
@@ -73,7 +73,7 @@ collections:
               name: "cta2Icon",
               widget: "string",
               i18n: true,
-              description: "You can find a list of these at https://fontawesome.com/icons",
+              hint: "You can find a list of these at https://fontawesome.com/icons",
             },
             {
               label: "CTA 2 Icon Alignment",
