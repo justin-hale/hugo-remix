@@ -58,7 +58,7 @@ collections:
               label: "CTA 1 Icon Alignment",
               name: "cta1Alignment",
               widget: "select",
-              options: ["left", "right"]
+              options: ["left", "right"],
               i18n: true,
             },
             { label: "CTA 2 Text", name: "cta2", widget: "string", i18n: true },
@@ -79,7 +79,7 @@ collections:
               label: "CTA 2 Icon Alignment",
               name: "cta2Alignment",
               widget: "select",
-              options: ["left", "right"]
+              options: ["left", "right"],
               i18n: true,
             },
             {
