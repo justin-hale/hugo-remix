@@ -14,17 +14,25 @@ site.Language.Lang }}
     <div class="btn-container-group">
       <div class="btn-container">
         <a href="{{$data.cta1Link}}" data-id="product">
-          <span class="btn-icon"><i class="fas fa-angle-down"></i></span>
-          <span class="btn-text">{{$data.cta1}}</span>
+          {{ if eq $data.cta1Alignment "left" }}
+          <span class="btn-icon"><i class="fas {{$data.cta1Icon}}"></i></span>
+          {{ end }}
+          <span class="btn-text btn-icon-{{$data.cta1Alignment }}">{{$data.cta1}}</span>
+          {{ if eq $data.cta1Alignment "right" }}
+          <span class="btn-icon"><i class="fas {{$data.cta1Icon}}"></i></span>
+          {{ end }}
           <i class="bg"></i>
         </a>
       </div>
       <div class="btn-container">
         <a href="{{$data.cta2Link}}" data-id="product" target="blank">
-          <span class="btn-icon btn-icon-deploy"
-            ><i class="fas fa-rocket"></i
-          ></span>
-          <span class="btn-text">{{$data.cta2}}</span>
+          {{ if eq $data.cta2Alignment "left" }}
+          <span class="btn-icon btn-icon-deploy"><i class="fas {{$data.cta2Icon}}"></i></span>
+          {{ end }}
+          <span class="btn-text btn-icon-{{$data.cta2Alignment }}">{{$data.cta2}}</span>
+          {{ if eq $data.cta2Alignment "right" }}
+          <span class="btn-icon btn-icon-deploy"><i class="fas {{$data.cta2Icon}}"></i></span>
+          {{ end }}
           <i class="bg"></i>
         </a>
       </div>

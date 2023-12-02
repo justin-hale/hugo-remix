@@ -9,8 +9,12 @@ en:
   copyright: "  © 2015-2023 - Barnes Bends HOA"
   cta1: Join Nextdoor
   cta1Link: http://www.google.com
+  cta1Icon: fa-arrow-up-right-from-square
+  cta1Alignment: right
   cta2: Documents
   cta2Link: http://www.google.com
+  cta2Icon: fa-arrow-up-right-from-square
+  cta2Alignment: right
   register: barnesbend.com
   registerUrl: https://barnesbend.com
 fr:
@@ -21,7 +25,9 @@ fr:
   copyright: "  © 2017-2022 - OhBonsaï &"
   cta1: Join Nextdoor
   cta1Link: http://www.google.com
+  cta1Icon: fa-link
   cta2: Documents
   cta2Link: http://www.google.com
+  cta2Icon: fa-link
   register: Roneo.org
   registerUrl: https://roneo.org/en
