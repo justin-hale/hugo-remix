@@ -11,4 +11,7 @@
     #nc-root [class*="AppMainContainer"] {
         min-width: auto;
     }
+    #nc-root [class*="EditorContainer"] {
+        min-width: 100%;
+    }
 }
