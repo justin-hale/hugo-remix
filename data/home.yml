@@ -1,33 +1,33 @@
 en:
-  title: <span>Barnes Bend</span> is our community in Nashville.</span>
-  slogan: Nulla magna eiusmod ea eu irure exercitation non incididunt.
   shortDescription: |
     • Find Homeowner's Documents
     • Join our social media communities
     • Ask questions to the property manager
-  image: /media/00-stairs.jpg
-  copyright: "  © 2015-2023 - Barnes Bends HOA"
   cta1: Join Nextdoor
-  cta1Link: http://www.google.com
-  cta1Icon: fa-arrow-up-right-from-square
-  cta1Alignment: right
-  cta2: Documents
-  cta2Link: http://www.google.com
-  cta2Icon: fa-arrow-up-right-from-square
   cta2Alignment: right
-  register: barnesbend.com
-  registerUrl: https://barnesbend.com
-fr:
-  image: /media/wave.jpg
-  title: Remix, un <span>theme pour Hugo</span> branché sur <span>Netlify CMS</span>
-  slogan: Lorem magna eiusmod ea eu irure exercitation non incididunt.
-  shortDescription: « Quis do pariatur quis nostrud elit in»
-  copyright: "  © 2017-2022 - OhBonsaï &"
-  cta1: Join Nextdoor
-  cta1Link: http://www.google.com
-  cta1Icon: fa-link
   cta2: Documents
+  cta1Alignment: left
+  register: barnesbend.com
+  copyright: "  © 2015-2023 - Barnes Bends HOA"
+  registerUrl: https://barnesbend.com
+  title: <span>Barnes Bend</span> is our community in Nashville.</span>
+  cta1Icon: fa-arrow-up-right-from-square
+  image: /media/00-stairs.jpg
+  cta2Icon: fa-arrow-up-right-from-square
+  cta1Link: http://www.google.com
   cta2Link: http://www.google.com
-  cta2Icon: fa-link
+  slogan: Nulla magna eiusmod ea eu irure exercitation non incididunt.
+fr:
+  shortDescription: « Quis do pariatur quis nostrud elit in»
+  cta1: Join Nextdoor
+  cta2: Documents
   register: Roneo.org
+  copyright: "  © 2017-2022 - OhBonsaï &"
   registerUrl: https://roneo.org/en
+  title: Remix, un <span>theme pour Hugo</span> branché sur <span>Netlify CMS</span>
+  cta1Icon: fa-link
+  image: /media/wave.jpg
+  cta2Icon: fa-link
+  cta1Link: http://www.google.com
+  cta2Link: http://www.google.com
+  slogan: Lorem magna eiusmod ea eu irure exercitation non incididunt.
