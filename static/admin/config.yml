@@ -312,12 +312,6 @@ collections:
               i18n: true,
               required: false,
             },
-            {
-              label: "Languages",
-              name: "languages",
-              widget: string,
-              i18n: true,
-            },
           ]
       - file: "data/glossary.yml"
         label: "Glossary"
