@@ -39,10 +39,12 @@
 
   .logo {
     height: 4.5rem;
-    img {
-      display: block;
-      width: auto;
+    i {
+      display: flex;
       height: 100%;
+      align-items: center;
+      justify-content: center;
+      color: white;
     }
   }
 

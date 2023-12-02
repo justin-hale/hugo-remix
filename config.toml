@@ -7,6 +7,12 @@ defaultContentLanguage = 'en'
   title = 'Remix, a theme for Hugo fully editable with Netlify CMS'
   metaDescription = "Hugo + Netlify CMS + One click deploy to Netlify"
 
+[params.favicon]
+  appleTouchIcon = "/meta/apple-touch-icon.png"
+  icon32 = "/meta/favicon-32x32.png"
+  icon16 = "/meta/favicon-16x16.png"
+  manifest = "/meta/site.webmanifest"
+  maskIcon = "/meta/safari-pinned-tab.svg"
 
 # Languages
 [Languages.en]
