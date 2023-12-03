@@ -3,9 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="{{ .Site.Params.metaDescription }}" />
-
   <title>{{ .Site.Params.title }}</title>
-
   <link rel="apple-touch-icon" sizes="180x180" href="{{.Site.Params.favicon.appleTouchIcon}}" />
   <link rel="icon" type="image/png" sizes="32x32" href="{{.Site.Params.favicon.icon32}}" />
   <link rel="icon" type="image/png" sizes="16x16" href="{{.Site.Params.favicon.icon16}}" />
@@ -13,14 +11,12 @@
   <link rel="mask-icon" href="{{.Site.Params.favicon.maskIcon}}" color="#5bbad5" />
   <meta name="msapplication-TileColor" content="#2b5797" />
   <meta name="theme-color" content="#ffffff" />
-
   <!-- Generate CSS -->
   {{ $options := (dict "enableSourceMap" true ) }} {{ $normalizeSass :=
   resources.Get "normalize.scss" }} {{ $normalizeStyle := $normalizeSass |
   resources.ToCSS $options | resources.Fingerprint }} {{ $mainSass :=
   resources.Get "main.scss" }} {{ $mainStyle := $mainSass | resources.ToCSS
   $options | resources.Fingerprint }} {{ $mainJs := resources.Get "main.js" }}
-
   <link
     rel="stylesheet"
     href="{{ $normalizeStyle.RelPermalink }}"
@@ -31,7 +27,6 @@
     href="{{ $mainStyle.RelPermalink }}"
     integrity="{{ $mainStyle.Data.Integrity }}"
   />
-
   <!-- Font Awesome -->
   {{ $fontAwesomeSass := resources.Get "font-awesome.scss" }} {{
   $fontAwesomeStyle := $fontAwesomeSass | resources.ToCSS $options |
@@ -42,6 +37,5 @@
     integrity="{{ $fontAwesomeStyle.Data.Integrity }}"
   />
   <!-- <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.css" rel="stylesheet" > -->
-
   <script src="{{$mainJs.RelPermalink}}"></script>
 </head>

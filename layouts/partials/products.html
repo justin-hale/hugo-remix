@@ -1,6 +1,4 @@
 {{ $data := index site.Data.products site.Language.Lang }}
-
-
 <section class="section sec5 content-sec" id="product">
     <div class="main-title">
         <h2> {{ $data.title | safeHTML }}
@@ -8,21 +6,12 @@
         </h2>
         <div class="border"></div>
     </div>
-
     <p class="sub-title">
         {{ $data.portText }}
     </p>
-
-
-
     <div class="news">
-
-
-
         {{ range first 6 (where site.RegularPages "Type" "==" "products")}}
-
         <div class="new" onclick="location.href = '{{ .RelPermalink }}';">
-
             <img src="/media/{{ path.Base .Params.image }}" alt="">
             <div class="news-text">
                 <h4>{{ .Title }}</h4>
@@ -30,8 +19,6 @@
                 <p>{{ .Summary }}</p>
             </div>
         </div>
-
         {{ end }}
-
     </div>
 </section>

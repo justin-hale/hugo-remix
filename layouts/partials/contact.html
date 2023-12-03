@@ -1,6 +1,4 @@
 {{ $data := index site.Data.contact site.Language.Lang }}
-
-
 <section class="section sec6  content-sec" id="contact">
     <div class="main-title">
         <h2> {{ $data.title | safeHTML }}
@@ -8,12 +6,10 @@
         </h2>
         <div class="border"></div>
     </div>
-
     <div class="contact-content-con">
         <div class="left-contact">
             <h4>{{ $data.subtitle }}</h4>
             <p>{{ $data.detail }} </p>
-
             <div class="contact-info">
                 <div class="contact-item">
                     <div class="icon">
@@ -94,10 +90,7 @@
                             <i class="bg"></i>
                         </a>
                     </div>
-
-
             </form>
         </div> -->
     </div>
-
 </section>
