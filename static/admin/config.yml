@@ -298,14 +298,14 @@ collections:
                 [
                   {
                     label: "Location",
-                    name: output,
+                    name: "location.output",
                     widget: string,
                     i18n: true,
                     required: false,
                   },
                   {
                     label: "Email",
-                    name: output,
+                    name: "email.output",
                     widget: string,
                     i18n: true,
                     required: false,
