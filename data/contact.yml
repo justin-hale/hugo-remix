@@ -32,7 +32,6 @@ en:
     nextdoor:
       link: http://nextdoor.com
       icon: fas fa-house-chimney
-  location.output: New Location
 fr:
   backgroundTitle: Contact
   phone: +86 571 1234 5678
