@@ -292,12 +292,14 @@ collections:
             {
               label: "Details",
               name: "contactDetails",
+              widget: list,
               i18n: false,
               fields: [
                 {
                   label: "Location",
                   name: "location",
                   i18n: false,
+                  widget: list,
                   fields: [
                     {
                       label: "Location",
@@ -307,14 +309,14 @@ collections:
                     }
                   ]
                   },
+                  {
+                    label: "Email",
+                    name: email.output,
+                    widget: string,
+                    i18n: true,
+                    required: false,
+                  },
               ]
-            },
-            {
-              label: "Email",
-              name: "{{contactDetails.email.output}}",
-              widget: string,
-              i18n: true,
-              required: false,
             },
             {
               label: "Fax",
