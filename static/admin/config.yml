@@ -293,11 +293,12 @@ collections:
               label: "Details",
               name: "contactDetails",
               widget: list,
+              summary: "{{fields.text}}"
               i18n: false,
               fields:
                 [
                   {
-                    label: '{{fields.text}}',
+                    label: 'Output',
                     name: "output",
                     widget: string,
                     i18n: true,
