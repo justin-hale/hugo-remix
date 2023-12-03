@@ -289,7 +289,15 @@ collections:
               i18n: true,
               required: false,
             },
-            { label: "Location", name: "contactDetails.location.output", widget: string, i18n: true },
+            {
+              label: "Details",
+              name: "contactDetails",
+              widget: object,
+              i18n: true,
+              fields: {
+                { label: "Location", name: "location.output", widget: string, i18n: true },
+              }
+            },
             {
               label: "Email",
               name: "contactDetails.email.output",
