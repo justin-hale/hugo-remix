@@ -292,11 +292,13 @@ collections:
             {
               label: "Details",
               name: "contactDetails",
+              widget: object,
               i18n: false,
               fields: [
                 {
                   label: "Location",
                   name: "location",
+                  widget: object,
                   i18n: false,
                   fields: [
                     {
