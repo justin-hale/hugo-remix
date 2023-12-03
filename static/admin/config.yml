@@ -297,15 +297,8 @@ collections:
               fields:
                 [
                   {
-                    label: "Location",
-                    name: "location.output",
-                    widget: string,
-                    i18n: true,
-                    required: false,
-                  },
-                  {
-                    label: "Email",
-                    name: "email.output",
+                    label: "Value",
+                    name: "output",
                     widget: string,
                     i18n: true,
                     required: false,
