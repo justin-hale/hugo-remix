@@ -1,17 +1,17 @@
 en:
   backgroundTitle: Contact
-  phone: +86 571 1234 5678
-  detail: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero,
-    provident, eum eligendi blanditiis ex explica
-  location: Rennes, Bretagne
-  subtitle:
+  phone: +1 (615) 383-1777 Ext 700
+  detail: Please contact our Community Association Manager <span>Christina
+    Ward-Mathis</span>.
+  location: 1114 17th Avenue South, Suite 101 Nashville, Tennessee 37212
+  subtitle: null
   title: <span>Contact</span> Us
   languages: English, French, German
-  email: contact@example.org
-  fax: +86 571 1234 5678
+  email: cward@timmonsprop.com
+  fax: ""
 fr:
   backgroundTitle: Contact
-  phone: "+86 571 1234 5678"
+  phone: +86 571 1234 5678
   detail: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero,
     provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis
     asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore
