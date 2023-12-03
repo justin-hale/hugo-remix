@@ -1,7 +1,8 @@
 en:
   backgroundTitle: Contact
   title: <span>Contact</span> Us
-  detail: Please contact our Community Association Manager <span>Christina Ward-Mathis</span>.
+  detail: Please contact our Community Association Manager <span>Christina
+    Ward-Mathis</span>.
   subtitle: null
   contactDetails:
     phone:
@@ -9,7 +10,7 @@ en:
       output: +1 (615) 383-1777 Ext 700
       icon: fas fa-phone
     location:
-      text: Location 
+      text: Location
       output: 1114 17th Avenue South, Suite 101
       icon: fas fa-map-marker-alt
     email:
@@ -31,6 +32,7 @@ en:
     nextdoor:
       link: http://nextdoor.com
       icon: fas fa-house-chimney
+  location.output: New Location
 fr:
   backgroundTitle: Contact
   phone: +86 571 1234 5678
