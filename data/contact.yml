@@ -17,9 +17,6 @@ en:
     Fax:
       output: ""
       icon: fas fa-fax
-    Languages:
-      output: ""
-      icon: fas fa-fax
   socials:
     Facebook:
       link: http://facebook.com
