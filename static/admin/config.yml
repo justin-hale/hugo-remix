@@ -289,7 +289,7 @@ collections:
               i18n: true,
               required: false,
             },
-            - label: "Details",
+            - { label: "Details",
             name: "contactDetails",
             widget: list,
             i18n: false,
@@ -318,6 +318,7 @@ collections:
                   required: false,
                 },
               ],
+            },
             {
               label: "Fax",
               name: "contactDetails.fax.output",
