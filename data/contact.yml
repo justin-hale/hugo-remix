@@ -5,7 +5,7 @@ en:
     Ward-Mathis</span>.
   subtitle: null
   contactDetails:
-    Phoen:
+    Phone:
       output: +1 (615) 383-1777 Ext 700
       icon: fas fa-phone
     Location:
@@ -21,10 +21,10 @@ en:
       output: ""
       icon: fas fa-fax
   socials:
-    facebook:
+    Facebook:
       link: http://facebook.com
       icon: fab fa-facebook-f
-    nextdoor:
+    Nextdoor:
       link: http://nextdoor.com
       icon: fas fa-house-chimney
 fr:

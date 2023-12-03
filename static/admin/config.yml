@@ -298,8 +298,15 @@ collections:
               fields:
                 [
                   {
-                    label: 'Output',
+                    label: 'Value',
                     name: "output",
+                    widget: string,
+                    i18n: true,
+                    required: false,
+                  },
+                  {
+                    label: 'Icon',
+                    name: "icon",
                     widget: string,
                     i18n: true,
                     required: false,
