@@ -289,35 +289,35 @@ collections:
               i18n: true,
               required: false,
             },
-            {
-              label: "Details",
-              name: "contactDetails",
-              widget: list,
-              i18n: false,
-              fields: [
+            - label: "Details",
+            name: "contactDetails",
+            widget: list,
+            i18n: false,
+            fields:
+              [
                 {
                   label: "Location",
                   name: "location",
                   i18n: false,
                   widget: list,
-                  fields: [
-                    {
-                      label: "Location",
-                      name: "output",
-                      widget: string,
-                      i18n: false
-                    }
-                  ]
-                  },
-                  {
-                    label: "Email",
-                    name: email.output,
-                    widget: string,
-                    i18n: true,
-                    required: false,
-                  },
-              ]
-            },
+                  fields:
+                    [
+                      {
+                        label: "Location",
+                        name: "output",
+                        widget: string,
+                        i18n: false,
+                      },
+                    ],
+                },
+                {
+                  label: "Email",
+                  name: email.output,
+                  widget: string,
+                  i18n: true,
+                  required: false,
+                },
+              ],
             {
               label: "Fax",
               name: "contactDetails.fax.output",
