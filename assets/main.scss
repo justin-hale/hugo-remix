@@ -603,6 +603,13 @@
         line-height: 2rem;
       }
 
+      .contact-detail {
+        span {
+          color: var(--color-secondary);
+          display: inline-block;
+        }
+      }
+
       .contact-info {
         i {
           margin-right: 0.4rem;
