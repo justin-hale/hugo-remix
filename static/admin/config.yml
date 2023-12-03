@@ -297,7 +297,7 @@ collections:
               fields:
                 [
                   {
-                    label: {{fields.text}},
+                    label: '{{fields.text}}',
                     name: "output",
                     widget: string,
                     i18n: true,
