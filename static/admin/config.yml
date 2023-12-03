@@ -293,10 +293,10 @@ collections:
               label: "Details",
               name: "contactDetails",
               widget: object,
-              i18n: true,
-              fields: {
+              i18n: false,
+              fields: [
                 { label: "Location", name: "location.output", widget: string, i18n: true },
-              }
+              ]
             },
             {
               label: "Email",
