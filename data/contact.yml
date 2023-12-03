@@ -5,24 +5,19 @@ en:
     Ward-Mathis</span>.
   subtitle: null
   contactDetails:
-    phone:
-      text: Phone
+    Phoen:
       output: +1 (615) 383-1777 Ext 700
       icon: fas fa-phone
-    location:
-      text: Location
+    Location:
       output: 1114 17th Avenue South, Suite 101
       icon: fas fa-map-marker-alt
-    email:
-      text: Email
+    Email:
       output: cward@timmonsprop.com
       icon: fas fa-envelope
-    fax:
-      text: Fax
+    Fax:
       output: ""
       icon: fas fa-fax
-    languages:
-      text: Languages
+    Languages:
       output: ""
       icon: fas fa-fax
   socials:
