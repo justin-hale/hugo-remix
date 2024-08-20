@@ -334,7 +334,7 @@ collections:
             { label: "list", name: "list", widget: string, i18n: true },
           ]
   - name: "news"
-    label: "Articles"
+    label: "News"
     folder: "content/english/news"
     path: "{{slug}}"
     media_folder: "{{media_folder}}"
@@ -363,7 +363,7 @@ collections:
   #       { label: "Body", name: "body", widget: "markdown" },
   #     ]
   - name: "products"
-    label: "Products (English)"
+    label: "Documents (English)"
     folder: "content/english/products"
     path: "{{slug}}"
     media_folder: "{{media_folder}}"
