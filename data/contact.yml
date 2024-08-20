@@ -1,17 +1,32 @@
 en:
   backgroundTitle: Contact
-  phone: +86 571 1234 5678
-  detail: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero,
-    provident, eum eligendi blanditiis ex explica
-  location: Rennes, Bretagne
-  subtitle:
   title: <span>Contact</span> Us
-  languages: English, French, German
-  email: contact@example.org
-  fax: +86 571 1234 5678
+  detail: Please contact our Community Association Manager <span>Christina
+    Ward-Mathis</span>.
+  subtitle: null
+  contactDetails:
+    Phone:
+      output: +1 (615) 383-1777 Ext 700
+      icon: fas fa-phone
+    Location:
+      output: 1114 17th Avenue South, Suite 101
+      icon: fas fa-map-marker-alt
+    Email:
+      output: cward@timmonsprop.com
+      icon: fas fa-envelope
+    Fax:
+      output: ""
+      icon: fas fa-fax
+  socials:
+    Facebook:
+      link: http://facebook.com
+      icon: fab fa-facebook-f
+    Nextdoor:
+      link: http://nextdoor.com
+      icon: fas fa-house-chimney
 fr:
   backgroundTitle: Contact
-  phone: "+86 571 1234 5678"
+  phone: +86 571 1234 5678
   detail: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero,
     provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis
     asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore

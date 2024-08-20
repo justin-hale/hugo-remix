@@ -289,34 +289,43 @@ collections:
               i18n: true,
               required: false,
             },
-            { label: "Detail", name: "detail", widget: string, i18n: true },
-            { label: "Location", name: "location", widget: string, i18n: true },
             {
-              label: "Email",
-              name: "email",
-              widget: string,
-              i18n: true,
-              required: false,
+              label: "Details",
+              name: "contactDetails",
+              widget: list,
+              summary: "{{fields.text}}",
+              i18n: false,
+              fields:
+                [
+                  {
+                    label: 'Value',
+                    name: "output",
+                    widget: string,
+                    i18n: true,
+                    required: false,
+                  },
+                  {
+                    label: 'Icon',
+                    name: "icon",
+                    widget: string,
+                    i18n: true,
+                    required: false,
+                  },
+                ],
             },
             {
               label: "Fax",
-              name: "fax",
+              name: "contactDetails.fax.output",
               widget: string,
               i18n: true,
               required: false,
             },
             {
               label: "Phone",
-              name: "phone",
+              name: "contactDetails.phone.output",
               widget: string,
               i18n: true,
               required: false,
-            },
-            {
-              label: "Languages",
-              name: "languages",
-              widget: string,
-              i18n: true,
             },
           ]
       - file: "data/glossary.yml"
