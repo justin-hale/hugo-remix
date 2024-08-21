@@ -7,4 +7,4 @@ summary: Covenants for our community
 ---
 This is our covenants of December 3, 2023.
 
-[Bylaws PDF](media/barnes_bend_ccrs.pdf)
+[Covenants PDF](/media/barnes_bend_ccrs.pdf)
