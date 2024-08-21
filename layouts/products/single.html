@@ -43,12 +43,11 @@ $curCategorySlug}} {{ $glossary := index site.Data.glossary site.Language.Lang
     <div class="product-page">
       <div class="banner">
         <img src="{{ .Params.image }}" alt="{{ .Title }}" />
-        <h1>{{ .Title }}</h1>
       </div>
 
       <div class="container">
-        <div class="side-menu">
-          <!-- <div class="title">
+        <!-- <div class="side-menu">
+          <div class="title">
                     {{printf "%s %s" $curCategoryCfg.name $glossary.list}}
                 </div>
 
@@ -60,11 +59,12 @@ $curCategorySlug}} {{ $glossary := index site.Data.glossary site.Language.Lang
                         </div>
                     </li>
                     {{end}}
-                </ul> -->
-        </div>
+                </ul>
+        </div> -->
 
         <div class="main">
-          <div class="title">{{.Title}}</div>
+          <h1 class="title">{{.Title}}</h1>
+          <h5 class="date">{{ .Date.Format "January 2, 2006" }}</h5>
           <div class="md-content">{{ .Content }}</div>
         </div>
       </div>

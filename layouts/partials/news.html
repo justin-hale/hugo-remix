@@ -15,7 +15,7 @@
             <img src="/media/{{ path.Base .Params.image }}" alt="">
             <div class="news-text">
                 <h4>{{ .Title }}</h4>
-                <h5>{{ .Date }}</h5>
+                <h5>{{ .Date.Format "January 2, 2006" }}</h5>
                 <p>{{ .Summary }}</p>
             </div>
         </div>
