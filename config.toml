@@ -4,8 +4,8 @@ defaultContentLanguage = 'en'
 
 
 [params]
-  title = 'Remix, a theme for Hugo fully editable with Netlify CMS'
-  metaDescription = "Hugo + Netlify CMS + One click deploy to Netlify"
+  title = 'Barnes Bend is our community in Nashville'
+  metaDescription = "Find Homeowners Documents, join our social media communities, ask questions to the property manager"
 
 [params.favicon]
   appleTouchIcon = "/meta/apple-touch-icon.png"
