@@ -8,4 +8,4 @@ summary: Architectural Improvement Application for our community
 ---
 This is our Architectural Improvement Application as of December 3, 2023.
 
-[Bylaws PDF](media/architectural_request_general.doc)
+[Architectural Improvement Application Doc](/media/architectural_request_general.doc)
