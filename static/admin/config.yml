@@ -350,10 +350,10 @@ collections:
     public_folder: "{{public_folder}}"
     create: true
     fields: [
-        { label: "Titre", name: "title", widget: "string" },
+        { label: "Title", name: "title", widget: "string" },
         # { label: "Publish Date", name: "date", widget: "datetime"},
         # { label: "Cover Image", name: "image", widget: "image" },
-        # { label: "Summary", name: "summary", widget: "text" },
+        { label: "Summary", name: "summary", widget: "text" },
         { label: ".", name: "body", widget: "markdown" },
       ]
   # - name: "news-fr"
