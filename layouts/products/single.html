@@ -33,6 +33,13 @@ $curCategorySlug}} {{ $glossary := index site.Data.glossary site.Language.Lang
     integrity="{{ $productStyle.Data.Integrity }}"
   />
 
+  <style>
+    .banner {
+        background-image: url({{ .Params.image }});
+        background-size: cover;
+    }
+  </style>
+
   <!-- {{ $productJs := resources.Get "product.js" }}
 <script src="{{$productJs.RelPermalink}}"></script> -->
 
@@ -42,7 +49,7 @@ $curCategorySlug}} {{ $glossary := index site.Data.glossary site.Language.Lang
 
     <div class="product-page">
       <div class="banner">
-        <img src="{{ .Params.image }}" alt="{{ .Title }}" />
+        <!-- <img src="{{ .Params.image }}" alt="{{ .Title }}" /> -->
         <h1>{{ .Title }}</h1>
       </div>
 
