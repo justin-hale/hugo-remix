@@ -3,31 +3,31 @@ en:
     • Find Homeowner's Documents
     • Join our social media communities
     • Ask questions to the property manager
-  cta1: Pay HOA
-  cta2Alignment: right
-  cta2: Documents
-  cta1Alignment: right
+  cta1: Our Facebook
+  cta2Alignment: left
+  cta2: Our Nextdoor
+  cta1Alignment: left
   register: barnesbend.com
   copyright: "  © 2015-2023 - Barnes Bends HOA"
   registerUrl: https://barnesbend.com
   title: <span>Barnes Bend</span> is our community in Nashville.</span>
-  cta1Icon: fa-arrow-up-right-from-square
+  cta1Icon: fa-brands fa-facebook
   image: /media/barnesbend.jpg
-  cta2Icon: fa-arrow-up-right-from-square
-  cta1Link: http://www.google.com
-  cta2Link: http://www.google.com
+  cta2Icon: fa-solid fa-house-chimney
+  cta1Link: https://www.facebook.com/groups/137674849661275/
+  cta2Link: https://nextdoor.com/neighborhood/barnesbendtn--antioch--tn/
   slogan: Nulla magna eiusmod ea eu irure exercitation non incididunt.
 fr:
   shortDescription: « Quis do pariatur quis nostrud elit in»
-  cta1: Join Nextdoor
-  cta2: Documents
+  cta1: Our Facebook
+  cta2: Our Nextdoor
   register: Roneo.org
   copyright: "  © 2017-2022 - OhBonsaï &"
   registerUrl: https://roneo.org/en
   title: Remix, un <span>theme pour Hugo</span> branché sur <span>Netlify CMS</span>
-  cta1Icon: fa-link
+  cta1Icon: fa-brands fa-facebook
   image: /media/wave.jpg
-  cta2Icon: fa-link
-  cta1Link: http://www.google.com
-  cta2Link: http://www.google.com
+  cta2Icon: fa-solid fa-house-chimney
+  cta1Link: https://www.facebook.com/groups/137674849661275/
+  cta2Link: https://nextdoor.com/neighborhood/barnesbendtn--antioch--tn/
   slogan: Lorem magna eiusmod ea eu irure exercitation non incididunt.
