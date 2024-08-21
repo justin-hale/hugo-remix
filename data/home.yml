@@ -8,7 +8,7 @@ en:
   cta2: Our Nextdoor
   cta1Alignment: left
   register: barnesbend.com
-  copyright: "  © 2015-2023 - Barnes Bends HOA"
+  copyright: "  © 2015-2024 - Barnes Bends HOA"
   registerUrl: https://barnesbend.com
   title: <span>Barnes Bend</span> is our community in Nashville.</span>
   cta1Icon: fa-brands fa-facebook
@@ -22,7 +22,7 @@ fr:
   cta1: Our Facebook
   cta2: Our Nextdoor
   register: Roneo.org
-  copyright: "  © 2017-2022 - OhBonsaï &"
+  copyright: "  © 2015-2024 - Barnes Bends HOA"
   registerUrl: https://roneo.org/en
   title: Remix, un <span>theme pour Hugo</span> branché sur <span>Netlify CMS</span>
   cta1Icon: fa-brands fa-facebook
