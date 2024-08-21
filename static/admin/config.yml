@@ -298,14 +298,14 @@ collections:
               fields:
                 [
                   {
-                    label: 'Value',
+                    label: "Value",
                     name: "output",
                     widget: string,
                     i18n: true,
                     required: false,
                   },
                   {
-                    label: 'Icon',
+                    label: "Icon",
                     name: "icon",
                     widget: string,
                     i18n: true,
@@ -403,7 +403,35 @@ collections:
           public_folder: "/media",
         },
         { label: "Summary", name: "summary", widget: "text" },
-        { label: "Body", name: "body", widget: "markdown" },
+        {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
+          media_folder: "/static/media",
+          public_folder: "/media",
+        },
+        {
+          label: "File Attachments",
+          name: "attachments",
+          widget: "list",
+          allow_add: true,
+          fields:
+            [
+              {
+                label: "File",
+                name: "file",
+                widget: "file",
+                media_folder: "/static/media/files",
+                public_folder: "/media/files",
+              },
+              {
+                label: "Description",
+                name: "description",
+                widget: "text",
+                required: false,
+              },
+            ],
+        },
       ]
   # - name: "products-fr"
   #   label: "Products (fr)"
