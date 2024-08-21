@@ -6,9 +6,9 @@
         </h2>
         <div class="border"></div>
     </div>
-    <p class="sub-title">
+    <!-- <p class="sub-title">
         {{ $data.portText }}
-    </p>
+    </p> -->
     <div class="news">
         {{ range first 6 (where site.RegularPages "Type" "==" "products")}}
         <div class="new" onclick="location.href = '{{ .RelPermalink }}';">
